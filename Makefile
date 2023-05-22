@@ -60,7 +60,7 @@ work-dir := work_dir
 
 # TOP-Module/Component for synthesis & implementation. Module must be somewhere in
 # the source listing.
-TOP ?= TEST_SORTER_TOP
+TOP ?= DEBOUNCER_TOP
 
 BIT_FILE := $(work-dir)/$(TOP).bit
 bit := $(BIT_FILE)
