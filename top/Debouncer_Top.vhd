@@ -26,7 +26,7 @@ begin
     port map (
       CLK_I    => SYS_CLK_I,
       RST_I    => '0',
-      INPUT_I  => BNTC_I(0),
+      INPUT_I  => BTNC_I(0),
       OUTPUT_O => LED_O(0)
     );
 
